@@ -1,15 +1,12 @@
-import HeroStyle, { HeroTitle } from './styles'
-import { Container } from '../../styles'
-import { Title } from '../Titulo/styles'
+import { HeroStyle, HeroTitle } from './styles'
+import { Container } from '../../global'
+
 const Hero = () => (
   <HeroStyle>
-    {' '}
     <Container>
       <HeroTitle>
-        <Title fontSize={3}>
-          As melhores vagas para tecnologia, design e artes visuais.
-        </Title>
-      </HeroTitle>{' '}
+        As melhores vagas para tecnologia, design e artes visuais aqui na EBAC.
+      </HeroTitle>
     </Container>
   </HeroStyle>
 )

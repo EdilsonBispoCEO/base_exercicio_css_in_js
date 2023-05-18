@@ -1,12 +1,9 @@
-import { Header } from './styles'
-import Title from '../Titulo'
+import { Titulo } from './styles'
 
 const Cabecalho = () => (
-  <Header>
-    <Title color={'main'} fontSize={2}>
-      EBAC Jobs
-    </Title>
-  </Header>
+  <Titulo>
+    <h1>EBAC Jobs Tec</h1>
+  </Titulo>
 )
 
 export default Cabecalho
